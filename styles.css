@@ -1,0 +1,52 @@
+/* Diseño para tabletas */
+@media screen and (min-width: 800px) {
+  .form-register {
+    float: left;
+    width: 50%;
+  }
+}
+/* Diseño para PC */
+@media screen and (min-width: 1025px) {
+  .form-register {
+    float: left;
+    width: 33%;
+  }
+}
+
+/*BUSCADOR*/
+#fondo{
+  background: url(https://images.pexels.com/photos/53621/calculator-calculation-insurance-finance-53621.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+/*FIN BUSCADOR*/
+
+/*Tarjetas*/
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+/*Cards*/
+.title-cards {
+  width: 100%;
+  max-width: 1080px;
+  margin: auto;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+  color: #000000;
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .container-card {
+    flex-wrap: wrap;
+  }
+  .card {
+    height: 10%;
+  }
+}
+
+/*Fin-Cards*/
